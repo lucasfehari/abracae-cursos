@@ -43,7 +43,7 @@ export const Header: React.FC = () => {
               ? 'bg-brand-orange text-white'
               : 'bg-brand-navy/80 backdrop-blur text-brand-orange'
               }`}>
-              <img className='w-48 h-12' src="./public/logo.svg" alt="Logo" />
+              <img className='w-48 h-12' src="/logo.svg" alt="Logo" />
             </div>
             <div className="flex flex-col">
               <span className={`font-tech font-bold text-xl tracking-tight leading-none ${isScrolled || location.pathname !== '/' ? 'text-white' : 'text-white'

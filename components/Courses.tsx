@@ -11,7 +11,7 @@ export const Courses: React.FC = () => {
       description: 'Especialização em climatização. Mercado em expansão devido ao clima da região.',
       duration: '180 Horas',
       icon: ThermometerSun,
-      image: './public/arcondicionado.png',
+      image: './arcondicionado.png',
       topics: ['Ciclos de refrigeração', 'Diagnóstico de falhas', 'Recarga de gás', 'Manutenção preventiva']
     },
     {
@@ -20,7 +20,7 @@ export const Courses: React.FC = () => {
       description: 'A base de tudo. Veículos modernos dependem 100% de sistemas elétricos complexos.',
       duration: '180 Horas',
       icon: Zap,
-      image: './public/eletrica.png',
+      image: './eletrica.png',
       topics: ['Fundamentos de elétrica', 'Uso de multímetro', 'Alternadores e baterias', 'Fusíveis e relés']
     },
     {
@@ -29,7 +29,7 @@ export const Courses: React.FC = () => {
       description: 'Segurança viária. O serviço mais recorrente nas oficinas mecânicas do Brasil.',
       duration: '180 Horas',
       icon: Activity,
-      image: './public/suspensaoealinhamento.png',
+      image: './suspensaoealinhamento.png',
       topics: ['Geometria veicular', 'Balanceamento', 'Troca de componentes', 'Diagnóstico de ruídos']
     }
   ];
